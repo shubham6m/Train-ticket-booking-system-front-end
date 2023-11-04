@@ -1,0 +1,30 @@
+<html><head>
+    <script language="javascript" type="text/javascript">
+    function tell(name,age)
+    {
+        // document.write(name + " ,your ticket is confirmed successfully... " );
+        alert(name + " your ticket is confirmed successfully... " );
+    }
+</script>
+<link rel="stylesheet" href="4.Passenger details page css.css">
+</head>
+<body>
+   <center> <h1>Write passenger details.....</h1>
+    <form>
+<input name="t1" placeholder="Enter your name.."/> &nbsp; &nbsp;
+<input name="t2" placeholder="Enter your age.."/><br><br><br>
+<select id="selectbutton">
+<option>Any class &nbsp &nbsp &nbsp</option>
+<option>AC chair car</option>
+<option> 3rd AC class</option>
+<option> 2nd AC class </option>
+<option> 1st AC class</option>
+<option> Sleeper</option>
+</select>
+<br><br>
+<input type="checkbox"><a id="checkbox" href="https://contents.irctc.co.in/en/term.html#:~:text=Terms%20and%20Conditions%20of%20Service%201%20Definitions%20In,...%205%20User%20Registration%3A%20...%206%20E-Tickets%20">Terms & Conditions</a><br></input>
+<input id="button" class="glowing-button" type="submit" onclick="tell(t1.value,t2.value)" value="submit"/>
+    </form>
+    </center>
+</body>
+</html>

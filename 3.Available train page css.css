@@ -1,0 +1,30 @@
+#time{
+    margin-top: -40px;
+    align-items:center ;
+}
+body{
+    background-image: url(interior.jpg);
+    background-position: center;
+    color: #fff;
+    background-size: 1000px;
+}
+.table2{
+    padding-left: 70px;
+    padding-right: 90px;
+}
+#table2{
+    background-color:steelblue;
+}
+#button{
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 600px;
+    padding: 10px;
+    background-color: steelblue;
+    color:white;
+}
+#button:hover{
+    background-color:rgb(10, 236, 108);
+    color: crimson;
+
+}

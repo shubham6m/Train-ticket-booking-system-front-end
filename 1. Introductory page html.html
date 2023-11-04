@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking ticket</title>
+    <link rel="stylesheet" href="1. Introductory page css.css">
+    <script language="javascript" type="text/javascript">
+        function redirect()
+        {
+            window.location.assign("2.Booking page html.html");
+        }
+    </script>
+</head>
+ <body onload="setTimeout('redirect()',10000)"> 
+     <!-- this time is in milisecond that why we need u write in large value this means 10 sec
+    this page will redirect to another page after 10 sec -->
+</head>
+<body>
+    <div class="container">
+        <h1>Hey!! Welcome here..</h1>
+        <br><br><br>
+        <div class="status">
+            <p><strong>This is new generation railway e-ticket booking system......</strong></p>
+            <br>
+            <font size="2px" >This page will redirect you to my website after 10 sec.. <br>
+                if not you just need to click on below button provided.</font>
+        </div>
+    </div>
+  <div class="redirect">
+    <!-- <p><b>this page will redirect you to my website after 10 sec.. <br>
+        if not you just need to click on below button provided.</b> -->
+    </p>
+    <form >
+        <input id="button" type="button" value="Click here.." onclick="redirect();">
+    </form>
+  </div> 
+</body>
+</html>

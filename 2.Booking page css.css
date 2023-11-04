@@ -1,0 +1,53 @@
+#datebutton{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+body{
+    background-image: url(search\ train1.jpg);
+    background-position: center;
+    color: #fff;
+}
+#from_box{
+    background: url(icon.svg) no-repeat ;
+    padding: 10px;
+    padding-left: 30px;
+    background-size: 12px;
+    background-color: #fff;
+    background-position: left center;
+    background-position-x: 4px;
+}
+#to_box{
+    background: url(icon1.svg) no-repeat ;
+    padding: 10px;
+    padding-left: 30px;
+    background-size: 11px;
+    background-color: #fff;
+    background-position: left center;
+    background-position-x: 4px;
+    margin-left: 40px;
+}
+#datebutton{
+    padding: 10px;
+}
+#classes{
+    margin-left: 100px;
+    padding:10px;
+}
+#quota{
+    margin-left: -50px;
+    padding: 10px;
+}
+#button{
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: -55px;
+    padding: 10px;
+    background-color: steelblue;
+    color:white;
+}
+#button:hover{
+    background-color:rgb(10, 236, 108);
+    color: crimson;
+
+}
